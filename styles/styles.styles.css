@@ -1,0 +1,40 @@
+/* reset css */
+h1 {
+    margin-bottom: 0;
+}
+p {
+    margin-top: 0;
+}
+select {
+    width: 300px;
+}
+.row, col {
+    display: flex; flex-direction: row;
+    gap: 20px;
+}
+h5
+label
+input {
+    display: inline-block;
+    vertical-align: middle;
+}
+h5 {
+    margin: 10px;
+}
+select {
+    padding: 2px;
+    width: 150px;
+    border-radius: 10px;
+    border: 2px;
+    
+}
+div input {
+    width: 800px;
+}
+h6 {
+    margin: 0;
+}
+.group {
+    display: flex; flex-direction: row;
+    gap: 20px;
+}
