@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Raffle Ticket</title>
     <link rel="stylesheet" href="./styles/styles.styles.css">
 </head>
 <body>
     <h1>Raffle Ticket Form</h1>
     <p>Please fill this form to enter the raffle. Each ticket costs $4.00.</p>
 
+    <br>
     <form>
         <label for="ticketcount">How many tickets do you want to purchase?</label>
         <select id="ticketcount" name="ticketcount">
@@ -19,47 +20,59 @@
             <option value="4">4</option>
             <option value="5">5</option>
         </select>
-
-        <label for="ticket1">Ticket Number 1</label>
-        <input type="text" id="ticket1" name="ticket1" placeholder="7334027511">
-
-        <label for="ticket2">Ticket Number 2</label>
-        <input type="text" id="ticket2" name="ticket2" placeholder="0041066696">
-
+        <br><br>
+<br>
+        <label for="ticket">Ticket Number</label>
+        <input type="text" id="ticket1" name="ticket" placeholder="7334027511">
+        <br><br>
+<br>
+        <label for="ticket2">Ticket Number</label>
+        <input type="text" id="ticket" name="ticket" placeholder="0041066696">
+<br><br>
+<br>
         <label for="totalprice">Total Ticket Price</label>
         <div class="" style="align-items:center;">
-            <input type="text" id="totalprice" name="totalprice" value="8" readonly>
+            <input type="text" id="totalprice" name="totalprice" value="8">
             <div class="" style="align-self:center;"></div>
         </div>
-
+<br><br>
         <div class="">
             <div class="">
                 <label for="firstname">First name</label>
                 <input type="text" id="firstname" name="firstname">
             </div>
+            <br><br>
             <div class="">
                 <label for="lastname">Last name</label>
                 <input type="text" id="lastname" name="lastname">
             </div>
         </div>
-
+<br><br>
         <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="example@example.com">
-
+        <br>
+        <input type="email" id="email" name="email">
+        <h6>example@example.com</h6>
+<br><br>
         <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone" placeholder="+1-555-555-5555">
+        <br>
+        <input type="tel" id="phone" name="phone" placeholder="(000) 000-0000">
 
-        <label for="address1">Billing Address</label>
-        <input type="text" id="address1" name="address1" placeholder="Street Address">
-        <input type="text" id="address2" name="address2" placeholder="Street Address 2">
+        <br><br>
+        <div><label for="address1">Billing Address</label style>
+        <input type="text" id="address1" name="address1">
+        <h6>Street Address</h6>
+        <br><br>
+        <input type="text" id="address2" name="address2"></div>
+        <h6>Street Address 2</h6>
+        <br><br>
+        
 
         <div class="group">
-            <label for="city">City</label>
-            <input type="text" id="city" name="city">
-            <label for="state">State / Province</label>
-            <input type="text" id="state" name="state">
+          <input type="text"> <input type="text">
         </div>
+        <h6>City</h6> <h6>State / Province</h6>
 
+<br><br>
         <div class="zip">
             <label for="zip">Postal / Zip Code</label>
             <input type="text" id="zip" name="zip">
